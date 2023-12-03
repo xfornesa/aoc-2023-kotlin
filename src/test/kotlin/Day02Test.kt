@@ -17,5 +17,8 @@ class Day02Test {
         val testInputPart2 = readInput("Day02_test_part1")
         val testResultPart2 = part2(testInputPart2)
         Assertions.assertEquals(2286, testResultPart2)
+
+        val part2Result = part2(input)
+        Assertions.assertEquals(65371, part2Result)
     }
 }
