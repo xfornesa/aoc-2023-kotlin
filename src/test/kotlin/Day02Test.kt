@@ -7,6 +7,6 @@ class Day02Test {
     fun runParts() {
         val testInputPart1 = readInput("Day02_test_part1")
         val testResultPart1 = part1(testInputPart1)
-        Assertions.assertEquals(42, testResultPart1)
+        Assertions.assertEquals(8, testResultPart1)
     }
 }
