@@ -4,7 +4,7 @@ import Day01.Companion.part1
 import Day01.Companion.part2
 import org.junit.jupiter.api.Assertions
 
-class Day01KtTest {
+class Day01Test {
     @Test
     fun runParts() {
         // test if implementation meets criteria from the description, like:
